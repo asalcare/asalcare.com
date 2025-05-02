@@ -104,7 +104,7 @@ function App() {
         <div>تواصل معنا عبر واتس اب</div>
         <div>00970-592532312</div>
         <img src={qrCode} alt="رمز الاستجابة السريعة" className="QR-code" />
-        <p>© 2025 ASAL CARE. جميع الحقوق محفوظة.</p>
+        <p dir="ltr">ASAL CARE 2025 © جميع الحقوق محفوظة.</p>
       </footer>
     </div>
   );
