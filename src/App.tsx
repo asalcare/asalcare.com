@@ -23,30 +23,13 @@ function App() {
           <h2>ل بشرة عسلية</h2>
           <p>منتجات طبيعية للعناية بالبشرة مستخلصة من العسل ومنتجات النحل</p>
         </div>
+        <h2>منتجاتنا</h2>
 
         <div className="Products-container">
           <div className="Product-item">
             <img src={lipBalmHoney} alt="مرطب عسلي" className="Product-image" />
             <h3>مرطب عسلي</h3>
             <p>مرطب شفاه طبيعي بنكهة العسل النقي لشفاه ناعمة ومرطبة</p>
-
-            <div className="Product-usage">
-              <h4>تعليمات الاستخدام:</h4>
-              <p>
-                دللي شفتيك بلمسة من الترطيب الفاخر، مرري المرطب بلطف واستمتعي
-                بنعومة وترطيب يدوم طوال اليوم.
-              </p>
-              <h4>تحذيرات:</h4>
-              <p>
-                للاستخدام الخارجي فقط. تجنب الاستخدام عند الحساسية للمكونات،
-                واختبره على جزء صغير من الجلد أولاً.
-              </p>
-              <p>
-                يحفظ في مكان بارد وجاف بعيداً عن أشعة الشمس. يُغلق بإحكام بعد
-                الاستخدام.
-              </p>
-              <p>صالح لمدة سنتين من تاريخ الإنتاج.</p>
-            </div>
           </div>
 
           <div className="Product-item">
@@ -57,24 +40,6 @@ function App() {
             />
             <h3>مرطب عسلي بالفانيلا</h3>
             <p>مرطب شفاه بالعسل والفانيلا للترطيب والنعومة مع رائحة منعشة</p>
-
-            <div className="Product-usage">
-              <h4>تعليمات الاستخدام:</h4>
-              <p>
-                دللي شفتيك بلمسة من الترطيب الفاخر، مرري المرطب بلطف واستمتعي
-                بنعومة وترطيب يدوم طوال اليوم.
-              </p>
-              <h4>تحذيرات:</h4>
-              <p>
-                للاستخدام الخارجي فقط. تجنب الاستخدام عند الحساسية للمكونات،
-                واختبره على جزء صغير من الجلد أولاً.
-              </p>
-              <p>
-                يحفظ في مكان بارد وجاف بعيداً عن أشعة الشمس. يُغلق بإحكام بعد
-                الاستخدام.
-              </p>
-              <p>صالح لمدة سنتين من تاريخ الإنتاج.</p>
-            </div>
           </div>
         </div>
 
@@ -93,11 +58,24 @@ function App() {
         <div className="Coming-soon">
           <h3>قريباً</h3>
           <ul>
-            <li>مقشر شفاه عسلي</li>
-            <li>مقشر شفها عسلي بالكرز</li>
+            <li>شفاه - مقشر عسلي</li>
+            <li>شفاه - مقشر عسلي بالفانيلا</li>
           </ul>
         </div>
       </section>
+
+      <div className="Social-media-section">
+        <div>تابعونا على إنستجرام</div>
+        <a
+          href="https://www.instagram.com/asalcare_com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="Instagram-link"
+          dir="ltr"
+        >
+          <span>@asalcare_com</span>
+        </a>
+      </div>
 
       <section className="Heritage-section">
         <h2>تراثنا في تربية النحل</h2>
@@ -123,9 +101,10 @@ function App() {
       </section>
 
       <footer className="App-footer">
-        <p>© 2025 ASAL CARE. جميع الحقوق محفوظة.</p>
         <div>تواصل معنا عبر واتس اب</div>
+        <div>00970-592532312</div>
         <img src={qrCode} alt="رمز الاستجابة السريعة" className="QR-code" />
+        <p>© 2025 ASAL CARE. جميع الحقوق محفوظة.</p>
       </footer>
     </div>
   );
